@@ -14,12 +14,12 @@ function App() {
     
       <Router>
         <nav>
-          <a className='logo' href='/'>
+          <link className='logo' to='/'>
             <img className="logo" src="logo.svg" alt="profile" />
-          </a>
+          </link>
           <div className="links">
-            <a className='nav_a'
-              href='About'>About</a>
+            <link className='nav_a'
+              to='/About'>About</link>
           </div>
         </nav>
 
