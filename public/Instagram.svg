@@ -1,0 +1,18 @@
+<svg width="160" height="50" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Instagram Gradient Background for Icon -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F09433"/>
+      <stop offset="50%" stop-color="#E6683C"/>
+      <stop offset="100%" stop-color="#DC2743"/>
+    </linearGradient>
+  </defs>
+  <rect width="50" height="50" fill="url(#grad)"/>
+  <!-- Instagram Icon -->
+  <circle cx="25" cy="25" r="8" fill="none" stroke="#fff" stroke-width="2"/>
+  <circle cx="25" cy="25" r="3" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- White Background for Text -->
+  <rect x="50" width="110" height="50" fill="#fff"/>
+  <!-- Instagram Text -->
+  <text x="105" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#E1306C">Instagram</text>
+</svg>

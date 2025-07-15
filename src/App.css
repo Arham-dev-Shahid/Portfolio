@@ -1,0 +1,238 @@
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes slideinfromDown {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFromUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.line_div {
+  width: 450px;
+  height: 6px;
+  background: linear-gradient(to bottom right, 
+  rgb(0, 60, 255), 
+  rgb(0, 102, 255),
+   rgb(0, 153, 255), 
+   rgb(0, 204, 255));
+  margin-bottom: 20px;
+  margin-top: 0px;
+
+}
+.Main_div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.Home-div {
+  height: 500px;
+  width: 500px;
+  animation: slideInFromLeft 1s ease-in-out , 
+  floatUpDown 2s ease-in-out infinite;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+
+.intro-h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.Name-h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.about-p {
+  font-size: 30px;
+  margin-top: 0px;
+}
+.About-div {
+  flex-direction: row;
+  display: flex;
+  margin-left: -200px;
+}
+.contact_div {
+   animation: slideinfromDown 1s ease-in-out;
+   display: flex;
+   flex-direction: column;
+}
+.contact_head {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.icon_instagram {
+  margin-right: 20px;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+.icon_facebook {
+  margin-right: 20px;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+.icon_github {
+  margin-right: 20px;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+.nav_a {
+  background: linear-gradient(to bottom right, rgb(0, 60, 255), rgb(0, 102, 255), rgb(0, 153, 255), rgb(0, 204, 255));
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  animation: slideInFromUp 1s ease-in-out;
+  margin: 100px 20px 30px 0px;
+}
+.nav_a:hover {
+  border: 4px solid transparent;
+  border-radius: 8px; /* optional */
+  background: 
+    linear-gradient(to bottom right, 
+      rgb(0, 60, 255), 
+      rgb(0, 102, 255), 
+      rgb(0, 153, 255), 
+      rgb(0, 204, 255)) border-box;
+  background-clip: border-box;
+  padding: 1rem;
+  background-color: transparent;
+  color: aliceblue;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  animation: slideInFromUp 1s ease-in-out;
+  margin: 100px 20px 30px 0px;
+}
+  
+  /* Multicolour glow */
+  /* box-shadow: 
+    0 0 10px rgba(0, 150, 255, 0.7),
+    0 0 20px rgba(0, 200, 255, 0.6),
+    0 0 30px rgba(100, 0, 255, 0.5),
+    0 0 40px rgba(0, 150, 255, 0.3); */
+
+
+
+
+/* 🖼️ Actual circular image */
+.creator_img {
+  box-shadow: 
+    -15px -15px 20px rgba(0, 150, 255, 0.7),   /* top-left */
+     15px -15px 20px rgba(0, 200, 255, 0.6),   /* top-right */
+    -15px  15px 20px rgba(100, 0, 255, 0.5),   /* bottom-left */
+     15px  15px 20px rgba(0, 150, 255, 0.3);
+  border-radius: 50%;
+  object-fit: cover;
+  width: 450px;
+  height: 450px;
+  margin-left: 150px;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+.Abt-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+.greetings-h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.Begineer-span {
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 60, 255),
+    rgb(0, 102, 255),
+    rgb(0, 153, 255),
+    rgb(0, 204, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  font-size: 30px;
+}
+.video-link {
+  text-decoration: none;
+  color: aliceblue;
+  animation: floatUpDown 2s ease-in-out infinite;
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 60, 255),
+    rgb(0, 102, 255),
+    rgb(0, 153, 255),
+    rgb(0, 204, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  font-size: 60px;
+}
