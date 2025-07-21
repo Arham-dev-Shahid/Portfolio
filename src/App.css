@@ -213,7 +213,9 @@ h5 {
     rgb(0, 60, 255),
     rgb(0, 102, 255),
     rgb(0, 153, 255),
-    rgb(0, 204, 255)
+    rgb(0, 204, 255),
+    rgb(0, 255, 255)
+
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -235,4 +237,168 @@ h5 {
   -webkit-text-fill-color: transparent;
   display: block;
   font-size: 60px;
+}
+/* Extra small devices (phones) */
+@media (max-width: 575px) {
+  /* Center main container and reduce top margin */
+  .Main_div {
+    margin-top: 60px;
+    padding: 10px;
+  }
+
+  /* Line shrinks to fit small screen */
+  .line_div {
+    width: 90%;
+  }
+
+  /* Smaller logo size */
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Responsive home div with animation */
+  .Home-div {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .intro-h2,
+  .Name-h1,
+  .about-p {
+    text-align: center;
+  }
+
+  .intro-h2 {
+    font-size: 28px;
+  }
+
+  .Name-h1 {
+    font-size: 36px;
+  }
+
+  .about-p {
+    font-size: 20px;
+  }
+
+  /* Stack About section vertically */
+  .About-div {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .creator_img {
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact_head {
+    font-size: 28px;
+  }
+
+  .nav_a {
+    font-size: 18px;
+    margin: 50px 10px 20px 0;
+    padding: 8px 14px;
+  }
+
+  .icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icon_instagram,
+  .icon_facebook,
+  .icon_github {
+    margin-right: 15px;
+  }
+
+  .video-link {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .greetings-h1 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .Begineer-span {
+    font-size: 22px;
+  }
+}
+
+/* 📱 Small to medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .Home-div {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  .creator_img {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+  }
+
+  .About-div {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .line_div {
+    width: 80%;
+  }
+
+  .nav_a {
+    font-size: 20px;
+  }
+}
+
+/* 💻 Medium to large devices (small laptops) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Home-div {
+    margin-left: 100px;
+  }
+
+  .creator_img {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+  }
+
+  .line_div {
+    width: 65%;
+  }
+
+  .nav_a {
+    font-size: 22px;
+  }
+}
+
+/* 💻 Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Home-div {
+    margin-left: 200px;
+  }
+
+  .creator_img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .line_div {
+    width: 60%;
+  }
 }
